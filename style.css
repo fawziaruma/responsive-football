@@ -22,12 +22,12 @@
 }
 /*.........animation.......*/
 
-/* img{
-    transition: transform 0.2s ease-in;
+ img{
+    transition: transform 0.3s ease-in;
 }
 .image:hover img{
-    transform: translate(750px);
-} */
+    transform: translate(100px);
+}
 /*.......end animation.....*/
 
 .btn a{
@@ -38,7 +38,7 @@ color: white;
  background-color: #E02C6D;
  border: none;
  height: 25px;
-}
+} 
 /*....players name.....*/
 .players-name{
     margin: 20px;
@@ -76,7 +76,8 @@ color: white;
 .players{
     margin-left: 12px;
 }
-    /*.........last part.........*/
+
+  /*.........last part.........*/
     .logo img{
         width: 350px;
         height: 110px;
@@ -86,7 +87,7 @@ color: white;
         text-align: center;
     }
     .footer {
-        margin-left: 350px;
+        margin-left: 300px;
         margin-bottom: 10px;
     }
     .link a{
@@ -94,16 +95,16 @@ color: white;
         color: #000000;
     }
     .link{
-        margin-left: 300px;
+        margin-left: 245px;
         padding-bottom: 30px;
     }
 
     /*...........media queries.......*/
-    @media only screen and(max-width: 668px){
+    /* @media only screen and(max-width: 668px){
         .players-name{
             width: 100%;
         }
         .players{
             grid-template-columns: repeat(1, 1fr);
         }
-    }
+    } */
